@@ -1,0 +1,13 @@
+<a style="cursor: pointer;"
+[routerLink]="id">     
+    <div class="component"
+    routerLinkActive="active">
+        <div class="row">
+            <div class="name">{{ Project.name }}</div>
+            <div class="time">{{ Project.time }} days ago</div>
+        </div>
+        <div class="content">
+            {{ Project.description }}
+        </div>
+    </div>
+</a>

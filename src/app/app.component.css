@@ -1,0 +1,65 @@
+.row{
+    width: 100vw;
+    height: calc(100vh*0.15);
+    margin: 0px;
+}
+
+.title{
+    float: left;
+    font-size: 2.4rem;
+    margin-top:1.5rem;
+    margin-left: 1rem;
+    margin-bottom: 0rem;
+}
+
+.actions{
+    float: right;
+    margin-top: 1.5rem;
+    height: 2.4rem;
+}
+
+.Project{
+    width: 100%;
+}
+.btn__white{
+    height: 100%;
+    background-color:transparent;
+    color:rgb(19, 155, 19);
+    border-radius: 5px;
+    border-color: rgb(19, 155, 19);
+    border-width: 1px;
+    font-size: 1.2rem;
+    margin-right: 1rem;
+}
+
+.btn__white:active {
+    background-color:rgb(19, 155, 19);
+    color:white;
+    border: 1px solid transparent;
+}
+
+.btn__blue{
+    height: 100%;
+    background-color:rgb(50, 105, 224);
+    color:white;
+    border-radius: 5px;
+    border-width: 0px;
+    font-size: 1.2rem;
+}
+
+.nav__input{
+    height: 100%;
+    margin-right: 0.8rem ;
+    margin-left: 0.8rem;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    border-width: 1px;
+    border-color: lightgrey;
+    font-size: 1.2rem;
+}
+
+.container {
+    width: 100vw;
+    background-color: rgb(250, 250, 250);
+}

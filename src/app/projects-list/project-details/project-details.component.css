@@ -1,0 +1,199 @@
+.container {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(157, 156, 156);
+}
+
+.head {
+    display: block;
+    max-height: 8rem;
+    position: relative;
+}
+
+.container__img {
+    height: 8rem;
+    width: 8rem;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100%;
+}
+
+.head__elements--sub {
+    margin: 0;
+}
+
+.head__elements--header {
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.head__elements {
+    left: 8.5rem;
+    position: absolute;
+    top: 0;
+    padding: 0;
+    width: 75%;
+    height: 100%;
+}
+
+.head__sub {
+    display: block;
+}
+
+.head__sub--2 {
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.head__sub--Last {
+    display: inline;
+    margin: 0;
+    margin-left: 2.4rem;
+    font-size: 0.8rem;
+    color: rgb(177, 177, 177);
+}
+
+.head__sub--date {
+    display: inline;
+    margin: 0;
+}
+
+.head__sub--1 {
+    display: block;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+
+.head_main {
+    padding-top: 0.4rem;
+    height: 50%;
+}
+
+.head__sub--Tournament {
+    display: inline;
+    margin: 0;
+}
+
+.head__sub--gender {
+    display: inline;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.text {
+    display: inline-block;
+}
+
+.head__top--btn {
+    float: right;
+    height: 50%;
+    margin-top: 1rem;
+    margin: 1rem auto;
+    vertical-align: top;
+}
+
+.btn {
+    background-color: transparent;
+    border: solid 1px rgb(157, 156, 156);
+    height: 100%;
+    margin-left: 1rem;
+    border-radius: 5px
+}
+
+.btn__match {
+    margin-left: 3rem;
+    font-weight: 600;
+    color: rgb(157, 156, 156);
+}
+
+.u__margin__left {
+    margin-left: 0.6rem;
+}
+
+.row {
+    display: block;
+    height: 100%;
+    font-size: 1.1rem;
+    padding: 0.4rem 0;
+    border-top: 1px solid rgb(157, 156, 156);
+    border-radius: 5px;
+}
+
+.row p {
+    display: inline;
+    margin-left: 1rem;
+    height: 100%;
+    width: 100%;
+}
+
+.equipe p {
+    margin: 0;
+    color: white;
+    font-size: 1rem;
+    margin: 0 0.4rem;
+}
+
+.row .arena {
+    margin-left: 1.2rem;
+}
+
+.equipe {
+    display: inline;
+    height: 100%;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 1.2rem;
+    padding: 0.4rem;
+}
+
+.equipe .equipe__number {
+    padding: 0.1rem 0.3rem;
+    margin: 0.1rem 0.5rem;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.u__margin__small {
+    margin-left: 0.6rem;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.black {
+    background: black;
+}
+
+.list {
+    border-bottom: 1px solid rgb(157, 156, 156);
+}
+
+.u__border__bold {
+    border-width: 2px;
+    border-radius: 2px;
+}

@@ -1,0 +1,31 @@
+.row{
+    position: relative;
+}
+.time{
+    position: absolute;
+    right: 1rem;
+}
+.name{
+    position: absolute;
+}
+
+.content{
+    margin-top: 2rem;
+}
+
+.component{
+    padding: 1rem;
+    border-style: solid;
+    border: none;
+}
+a:link
+,a:visited{
+    color: gray;
+    text-decoration: none;
+}
+.active{
+    background-color:rgb(44, 106, 238);
+    color:white;
+    overflow: hidden;
+    border-color: rgb(44, 106, 238);
+    height: 100%;}

@@ -1,0 +1,77 @@
+.img {
+  max-width: 20rem;
+  max-height: 20rem;
+  width: 100%;
+}
+.team-1 {
+  background-color: $color-secondary;
+}
+.team-2 {
+  background-color: $color-grey-dark-3;
+}
+.team-3 {
+  background-color: $color-primary;
+}
+.details {
+    transition: all 0.2s;
+  &-animation{
+    animation: moveInRight 0.5s ease-out 0.75s;
+    animation-fill-mode: backwards;
+  }
+
+  &__header {
+    float: left;
+  }
+  &__actions {
+    float: right;
+    margin-top: 0.5rem;
+  }
+  &__text {
+    display: inline-block;
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+  &__card {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1rem;
+    border-radius: 10rem;
+    display: table;
+    margin: 0 auto;
+    transition: all 0.2s;
+    &:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    }
+    p {
+      display: inline-block;
+      margin-left: 1rem;
+    }
+    &-score {
+      p {
+        margin: 0;
+        color: $color-grey-dark;
+      }
+      position: absolute;
+      right: 0.5rem;
+      top:50%;
+      transform: translateY(-50%);
+      width:2rem;
+      height:2rem;
+      border-radius: 50%;
+      display: table;
+      text-align: center;
+      background-color: $color-white;
+    }
+    &-team {
+      position: relative;
+      border-radius: 5rem;
+      color: $color-white;
+      padding: 1rem;
+      padding-right: 3rem;
+      &:not(:last-child) {
+        margin: 0 1rem;
+      }
+    }
+  }
+}

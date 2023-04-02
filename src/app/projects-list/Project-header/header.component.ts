@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
-import { ProjectService } from '../Projects.service';
+import { ProjectService } from '../../Shared/Projects.service';
 
 @Component({
-  selector: 'app-header',
+  selector: 'app-Project-header',
   templateUrl: './header.component.html',
-  styleUrls: ['../../app.component.scss']
+  styleUrls: ['../../../styles.scss']
 })
 export class HeaderComponent {
   id:number

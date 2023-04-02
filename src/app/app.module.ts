@@ -6,9 +6,9 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { ProjectsListComponent } from './projects-list/projects-list.component';
-import { ProjectItemComponent } from './projects-list/project-item/project-item.component';
+import { ProjectItemComponent } from './projects-list/Project-item/project-item.component';
+import { HeaderComponent } from './projects-list/Project-header/header.component';
 import { ProjectDetailsComponent } from './projects-list/project-details/project-details.component';
-import { HeaderComponent } from './projects-list/header/header.component';
 
 @NgModule({
   declarations: [

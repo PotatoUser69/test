@@ -1,12 +1,12 @@
 import { Component , OnInit } from '@angular/core';
-import { ProjectService } from './Projects.service';
+import { ProjectService } from '../Shared/Projects.service';
 import { ProjectModel } from '../Shared/Project.model';
 import { ActivatedRoute,Params} from '@angular/router';
 
 @Component({
   selector: 'app-projects-list',
   templateUrl: './projects-list.component.html',
-  styleUrls: ['./projects-list.component.css'],
+  styleUrls: ['../../styles.scss'],
 })
 export class ProjectsListComponent implements OnInit {
   Projects: ProjectModel[];

@@ -1,11 +1,11 @@
 import { Component ,Input, OnInit} from '@angular/core';
-import { ProjectService } from '../Projects.service';
+import { ProjectService } from '../../Shared/Projects.service';
 import { ProjectModel } from 'src/app/Shared/Project.model';
 
 @Component({
   selector: 'app-project-item',
   templateUrl: './project-item.component.html',
-  styleUrls: ['./project-item.component.css']
+  styleUrls: ['../../../styles.scss']
 })
 export class ProjectItemComponent implements OnInit {
   id:string 

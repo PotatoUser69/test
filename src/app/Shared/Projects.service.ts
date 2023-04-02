@@ -1,5 +1,5 @@
 import { EventEmitter,Injectable } from "@angular/core";
-import {ProjectModel} from "../Shared/Project.model"
+import {ProjectModel} from "./Project.model"
 
 @Injectable({providedIn: 'root'})
 export class ProjectService{
